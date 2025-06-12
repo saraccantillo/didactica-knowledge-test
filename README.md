@@ -105,8 +105,14 @@ Para el desarollo del login se optó por usar un diseño que transmitiera flexib
 
 ![image](https://github.com/user-attachments/assets/65d38f08-3a00-4475-9d29-f23d6646ab2b) ![image](https://github.com/user-attachments/assets/f046ad05-d170-47d7-bb0e-c55c1a8dc19e)
 
+## Parte 6 Motores de Inteligencia Artificial (Innovación)
 
+TensorFlow es el resultado de DistBelief, un sistema de aprendizaje automático desarrollado por Google y que fue reconstruido para ser más rápido y robusto. TensorFlow permite crear e implementar modelos de aprendizaje automático de una forma relativamente sencilla, mediante el uso de APIs. 
 
+En mi experiencia, la inteligencia artificial suele percibirse como un obstáculo para el aprendizaje, ya que se piensa de ella como un remplazo a los procesos de formación, por ejemplo, la prueba y error, los estudiantes ya no se interesan por equivocarse y aprender sino por obtener la respuesta correcta desde el primer momento.
 
+Así las cosas, propongo que una plataforma educativa que haga uso de la IA debe fomentar el aprendizaje reflexivo. En lugar de mostrar cual es la respuesta correcta, sin dar espacio al porque de un error, la IA deberia analizar los intentos de la persona y ayudar a ofrecer pistas o formular preguntas que ayuden a encontrar la solución por cuenta propia.
 
+Por ejemplo, en un entorno de aprendizaje de matemáticas, si un estudiante comete un error al resolver ecuaciones, el sistema no señalaria simplemente el error (como despejes mal hechos o signos incorrectos) sino que aprendería a analizar los errores cometidos y que principios de álgebra son necesarios para corregir dichos errores.
 
+De esta forma la IA se convertiria en un mentor personalizado, que ayude al proceso de aprendizaje en vez de remplazar el esfuerzo con respuestas inmediatas.

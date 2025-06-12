@@ -67,7 +67,27 @@ Para iniciar la ejecución solo es necesario ejecutar en la consola:
 
 `npm start`
 
-La aplicación se comunica con la apiDidactico para poder obtener y manipular los datos a traves de los endpoints mencionados anteriormente. 
+La aplicación se comunica con la apiDidactico para poder obtener y manipular los datos a traves de los endpoints mencionados anteriormente.
+
+## Parte 3: SǪL (Base de Datos) - Optimización y Consultas
+
+La consulta SQL optimizada para obtener todas las tareas pendientes de un usuario es la siguiente.
+
+```sql
+SELECT t.id, t.title, t.created_at
+FROM tasks t
+WHERE t.user_id = ?
+AND t.completed = 0 
+ORDER BY t.created_at DESC;
+```
+Con un un indíce compuesto como por ejemplo:
+
+```sql
+CREATE INDEX idx_tasks_user_completed_created 
+ON tasks (user_id, completed, created_at DESC);
+```
+
+La base de datos puede localizar directamente las filas del usuario específico, filtrando solo las tareas pendientes y ordenando los resultados sin la necesidad de tener que examinar todas las filas de la tabla.
 
 
 

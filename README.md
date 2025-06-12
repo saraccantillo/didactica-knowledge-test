@@ -99,6 +99,13 @@ A continuación se utiliza un `switch` para devolver todas las tareas si el filt
 
 Se añadieron varios ejemplos para hacer llamados a `filterTasks` para mostrar cómo se filtran las tareas según el criterio enviado. Además se incluyo un bloque `try-catch ` para capturar y mostrar errores si se pasa un filtro inválido.
 
+## Parte 5 HTML y CSS (Interfaz de Usuario)
+
+Para el desarollo del login se optó por usar un diseño que transmitiera flexibilidad y modernidad, con un fondo degradado y un esquema de colores que corresponden a los de Escuela Didáctica. Los elementos están diseñados para tener un enfoque de usabilidad, se evidencia en el uso de bordes y sombras en los inputs del formulario. Se incluyen efectos de hover en el botón de envío para darle un toque adicional, además de reglas en el css para el diseño responsive.
+
+![image](https://github.com/user-attachments/assets/65d38f08-3a00-4475-9d29-f23d6646ab2b) ![image](https://github.com/user-attachments/assets/f046ad05-d170-47d7-bb0e-c55c1a8dc19e)
+
+
 
 
 

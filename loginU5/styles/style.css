@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #f5f0ff 0%, #45ba89 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #45ba89;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .login-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(138, 106, 207, 0.15);
+    width: 100%;
+    max-width: 450px;
+    padding: 40px 30px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  
+  .blob-shape {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #b19cd9 0%, #8bbc3c 100%);
+    border-radius: 50%;
+    top: -150px;
+    right: -150px;
+    opacity: 0.4;
+    filter: blur(30px);
+    z-index: -1;
+  }
+  
+  .blob-shape-2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(135deg, #d4c1ff 0%, #a98aff 100%);
+    border-radius: 50%;
+    bottom: -100px;
+    left: -100px;
+    opacity: 0.3;
+    filter: blur(25px);
+    z-index: -1;
+  }
+  
+  
+  .form-container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1f9393;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #42a3a3;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #42a3a3;
+  }
+  
+  input {
+    padding: 14px 16px;
+    border: 2px solid #89c7c7;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #42a3a3;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #42a3a3;
+    box-shadow: 0 0 0 4px rgba(138, 106, 207, 0.15);
+  }
+  
+  input::placeholder {
+    color: #629090;
+  }
+  
+  
+  .submit-btn {
+    margin-top: 10px;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #8cbb3d 0%, #1f9393 100%);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(138, 106, 207, 0.25);
+  }
+  
+  .submit-btn:active {
+    transform: translateY(0);
+  }
+  
+  
+  .btn-shine {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.3) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(30deg);
+    transition: all 0.5s ease;
+    opacity: 0;
+  }
+  
+  .submit-btn:hover .btn-shine {
+    animation: shine 1.5s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      left: -100%;
+      opacity: 0;
+    }
+    20% {
+      opacity: 0.3;
+    }
+    100% {
+      left: 100%;
+      opacity: 0;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .login-card {
+      padding: 30px 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+  
+    input {
+      padding: 12px 14px;
+    }
+  
+    .submit-btn {
+      padding: 14px;
+    }
+  }
+  

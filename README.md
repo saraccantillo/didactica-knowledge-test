@@ -20,6 +20,14 @@ La API está organizada en varias carpetas, cada una con una función específic
 
 La API sigue el patrón MVC, lo que permite una separación de responsabilidades. Las solicitudes entrantes son gestionadas por el archivo `index.php`, que dirige las peticiones a las rutas definidas en la carpeta `routes/`. Cada ruta está asociada a un controlador en `controllers/`, que a su vez interactúa con los modelos en `models/` para acceder y manipular los datos.
 
+La API fue lanzada utilizando XAMPP, la carpeta se colocó dentro de la carpeta `htdocs` de la siguiente forma `/C:/xampp/htdocs/apiDidactico` se iniciaron los servicios de Apache y MySQL, con la base de datos ya creada y algunos registros ingresados. Algunos de los endpoints válidos son:
+
+GET `apiDidactico/users` recupera la lista de todos los usuarios
+GET `apiDidactico/tasks` recupera la lista de todas las tareas
+GET `apiDidactico/users/{id}` recupera un usuario en específico por su ID
+GET `apiDidactico/users/{id}/tasks` recupera las tareas específicas de un usuario
+POST `apiDidactico/users` crea un nuevo usuario en la base de datos
+
 ### Algunas decisiones técnicas
 
 - **Uso de MVC**: Facilita la mantenibilidad y escalabilidad del código.

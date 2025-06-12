@@ -40,4 +40,36 @@ Esta estructura y enfoque permiten un desarrollo eficiente y una comprensión f�
 
 Sin índices, una base de datos tendría que realizar busquedas completas en una tabla para poder encontrar filas que coincidan con la consulta ingresada, utilizando índices estas consultas podrían ser mejoradas sobretodo cuando hacen uso de clausulas como `WHERE`, por ejemplo si se planea filtrar tareas cuyo estado en `completed`  sea verdadero, esta columna sería frecuentemente utilizada en las condiciones de búsqueda, con los índices la base de datos podra acceder más rapidamente.
 
+## Parte 2: React (Frontend) - Aplicación de Lista de Tareas
+
+### Estructura del Proyecto 
+
+Brevemente, la estructura del proyecto desarrollado en React es la siguiente
+
+didacticatest/
+│
+├── public/  Archivos estáticos
+├── src/ Código fuente
+│ ├── components/  -> Componentes de la aplicación
+│ │ ├── CreateUser.js -> Componente para crear nuevos usuarios
+│ │ └── ListUsers.js -> Componente para listar usuarios y sus tareas
+│ └── styles/ -> Archivos CSS para estilos
+├── package.json -> Dependencias y scripts del proyecto
+├── package-lock.json -> Versión exacta de las dependencias instaladas
+├── README.md -> Documentación del proyecto
+└── .gitignore
+
+### Funcionamiento 
+
+La aplicación cuenta con una página principal, donde a traves de un navegador, se podra acceder a las correspondientes funcionalidades: crear un usuario, visualizar a los usuarios existentes, seleccionar un usuario y mostrar sus tareas, permitir agregar nuevas tareas, marcar tareas como completadas, filtrar tareas y eliminarlas.
+
+Para iniciar la ejecución solo es necesario ejecutar en la consola:
+
+`npm start`
+
+La aplicación se comunica con la apiDidactico para poder obtener y manipular los datos a traves de los endpoints mencionados anteriormente. 
+
+
+
+
 

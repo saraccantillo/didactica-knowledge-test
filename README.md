@@ -89,6 +89,16 @@ ON tasks (user_id, completed, created_at DESC);
 
 La base de datos puede localizar directamente las filas del usuario específico, filtrando solo las tareas pendientes y ordenando los resultados sin la necesidad de tener que examinar todas las filas de la tabla.
 
+## Parte 4 JavaScript (Lógica Frontend)
+
+Este código ubicado en la carpeta ` javaScriptArray4` contiene una función llamada `filterTasks`, como se solicita, esta función acepta dos parámetros `tasks` un array de objetos que representan tareas y `filter` una cadena de texto que puede tomar los valores *all*, *completed* o *pending*.
+
+En primer lugar, se valida que `tasks` sea un array y que `filter` sea una cadena, si no, advierte del error. De ser necesario se convierte la cadena de texto a minúsculas.
+
+A continuación se utiliza un `switch` para devolver todas las tareas si el filtro es *all*, solo las tareas completas si el filtro es *completed* y las tareas pendientes si el filtro es *pending*.
+
+Se añadieron varios ejemplos para hacer llamados a `filterTasks` para mostrar cómo se filtran las tareas según el criterio enviado. Además se incluyo un bloque `try-catch ` para capturar y mostrar errores si se pasa un filtro inválido.
+
 
 
 

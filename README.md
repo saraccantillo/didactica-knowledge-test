@@ -22,11 +22,11 @@ La API sigue el patrón MVC, lo que permite una separación de responsabilidades
 
 La API fue lanzada utilizando XAMPP, la carpeta se colocó dentro de la carpeta `htdocs` de la siguiente forma `/C:/xampp/htdocs/apiDidactico` se iniciaron los servicios de Apache y MySQL, con la base de datos ya creada y algunos registros ingresados. Algunos de los endpoints válidos son:
 
-GET `apiDidactico/users` recupera la lista de todos los usuarios
-GET `apiDidactico/tasks` recupera la lista de todas las tareas
-GET `apiDidactico/users/{id}` recupera un usuario en específico por su ID
-GET `apiDidactico/users/{id}/tasks` recupera las tareas específicas de un usuario
-POST `apiDidactico/users` crea un nuevo usuario en la base de datos
+-  GET `apiDidactico/users` recupera la lista de todos los usuarios
+- GET `apiDidactico/tasks` recupera la lista de todas las tareas
+- GET `apiDidactico/users/{id}` recupera un usuario en específico por su ID
+- GET `apiDidactico/users/{id}/tasks` recupera las tareas específicas de un usuario
+- POST `apiDidactico/users` crea un nuevo usuario en la base de datos
 
 ### Algunas decisiones técnicas
 

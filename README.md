@@ -129,7 +129,7 @@ De esta forma la IA se convertiria en un mentor personalizado, que ayude al proc
 
 ### 1. Instalación de Moodle 4.5
 
-El link que se encuentra en la prueba no estaba disponible, por lo que se descargo Moodle 4.5.5 desde la página oficial de Moodle. Se actualizo XAMPP ya que esta versión de Moodle requeria de una versión PHP 8.1 y MariaDB 10.6.7.  En primer lugar se actualizo la versión de MariaDB a la versión necesaria por Moodle 4.5.5. 
+Se descarga Moodle 4.5 desde el link de la prueba-. Se actualizo XAMPP ya que esta versión de Moodle requiere de una versión PHP 8.1 y MariaDB 10.6.7.  En primer lugar se actualizo la versión de MariaDB a la versión necesaria por Moodle 4.5
 
 ![image](https://github.com/user-attachments/assets/5b077a34-0067-464f-8863-39ff234d12ac)
 

@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a03fa703-5aa6-466a-aa4e-c6b0f1492dd4)![image](https://github.com/user-attachments/assets/a03fa703-5aa6-466a-aa4e-c6b0f1492dd4)
+
 # didactica-knowledge-test
 
 Prueba de Conocimientos para Escuela Didáctica

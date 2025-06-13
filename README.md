@@ -163,6 +163,27 @@ A continuación, se restaura el `curso-demo.mbz`, para este paso fue necesario a
 
 ![image](https://github.com/user-attachments/assets/ea8b0925-0966-462c-a81a-72cdb033d87f)
 
+### 4. Solucionar el error
+
+Para solucionar el error, se realizo click en Overview Students con la ventana de Inspeccionar abierta, para detectar desde donde podría provenir el error, como se indica en la consola el error proviene desde `http://localhost/moodle/blocks/completion_progress/overview.php` por lo que se ingreso a esta carpeta y archivo para verificar donde esta el error. 
+
+![image](https://github.com/user-attachments/assets/483bad65-b3f7-49e7-acb4-55fe8a51372f)
+
+Al revisar la tabla `mdl_role` se evidencia que la columna `capabilite` no existe, y por lo tanto genera un error en la consulta SQL.
+
+![image](https://github.com/user-attachments/assets/655fb8cb-6e5b-4d64-8132-247ecf567208)
+
+Se corrige este error en el código y se verifica de nuevo el funcionamiento.
+
+![image](https://github.com/user-attachments/assets/3ad3eb00-9564-4c56-9cbf-62f7e50ef985)
+
+![image](https://github.com/user-attachments/assets/ccbb3a89-6296-4404-83c7-070a715cce46)
+
+
+
+
+
+
 
 
 

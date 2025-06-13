@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/a03fa703-5aa6-466a-aa4e-c6b0f1492dd4)![image](https://github.com/user-attachments/assets/a03fa703-5aa6-466a-aa4e-c6b0f1492dd4)
 # didactica-knowledge-test
 
 Prueba de Conocimientos para Escuela Didáctica
@@ -154,6 +154,13 @@ Se configura el perfil de administrador.
 Esta la aplicación lista para instalar el plugin.
 
 ![image](https://github.com/user-attachments/assets/e064e0ee-fa50-4980-a727-87301e0e1b0c)
+
+A continuación, se restaura el `curso-demo.mbz`, para este paso fue necesario aumentar el tamaño maximo de archivos en php.ini ya que el mbz tiene un tamaño de 64,5 MB y el limite era de 40 MB.
+
+![image](https://github.com/user-attachments/assets/ea8b0925-0966-462c-a81a-72cdb033d87f)
+
+
+
 
 
 

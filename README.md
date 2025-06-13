@@ -124,3 +124,31 @@ Así las cosas, propongo que una plataforma educativa que haga uso de la IA debe
 Por ejemplo, en un entorno de aprendizaje de matemáticas, si un estudiante comete un error al resolver ecuaciones, el sistema no señalaria simplemente el error (como despejes mal hechos o signos incorrectos) sino que aprendería a analizar los errores cometidos y que principios de álgebra son necesarios para corregir dichos errores.
 
 De esta forma la IA se convertiria en un mentor personalizado, que ayude al proceso de aprendizaje en vez de remplazar el esfuerzo con respuestas inmediatas.
+
+## Parte 7: Moodle y Error en Plugin Estado de Finalización
+
+### 1. Instalación de Moodle 4.5
+
+El link que se encuentra en la prueba no estaba disponible, por lo que se descargo Moodle 4.5.5 desde la página oficial de Moodle. Se actualizo XAMPP ya que esta versión de Moodle requeria de una versión PHP 8.1 y MariaDB 10.6.7.  En primer lugar se actualizo la versión de MariaDB a la versión necesaria por Moodle 4.5.5. 
+
+![image](https://github.com/user-attachments/assets/5b077a34-0067-464f-8863-39ff234d12ac)
+
+Despues en XAMPP se añadio el archivo .zip descomprimido de Moodle a la carpeta htdocs, a traves de `localhost/moodle` accedemos para comenzar con la instalación.
+
+![image](https://github.com/user-attachments/assets/cd0b6d08-47a5-4be1-be84-9423d98737b1)
+
+Se escoge como database driver MariaDB, además de crear la base de datos en phpMyAdmin con el nombre moodleDB.
+
+![image](https://github.com/user-attachments/assets/5b27550a-4627-4770-99fd-4dbd7d97a70e)
+![image](https://github.com/user-attachments/assets/66c3842f-3ad7-44cb-a671-09e8513090af)
+
+A continuación, se necesito corregir los errores para continuar con la instalación el primero fue `max_input_vars` cuyo valor se cambio a 5000, descomentar `extension=gd`, añadir la `extension=php_intl.dll`, se activo la `extension=sodium`, agregar la extensión `zend_extension=php_opcache.dll` y activar la extension `extension=soap`.
+
+![image](https://github.com/user-attachments/assets/ddf81146-f421-4e2c-8e92-c8c34fc19370)
+![image](https://github.com/user-attachments/assets/c681f3bf-9a47-46aa-a1ef-72ff238b7b4c)
+
+
+
+
+
+

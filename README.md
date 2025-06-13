@@ -179,16 +179,8 @@ Se corrige este error en el código y se verifica de nuevo el funcionamiento.
 
 ![image](https://github.com/user-attachments/assets/ccbb3a89-6296-4404-83c7-070a715cce46)
 
+## Parte 8: Mockup
 
+El resultado final de esta implementación es el siguiente, por cuestiones de tiempo el diseño responsive y algunos assets faltaron por mejorarse.
 
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/566a4ddc-809d-421f-8280-13a1a13744cf)

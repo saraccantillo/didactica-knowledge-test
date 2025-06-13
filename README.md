@@ -69,6 +69,14 @@ Para iniciar la ejecución solo es necesario ejecutar en la consola:
 
 La aplicación se comunica con la apiDidactico para poder obtener y manipular los datos a traves de los endpoints mencionados anteriormente.
 
+![image](https://github.com/user-attachments/assets/51104181-3588-4b8d-bb0e-25247800f8f3)
+
+![image](https://github.com/user-attachments/assets/f925fa07-de6e-4225-8079-054b023af2e3)
+
+![image](https://github.com/user-attachments/assets/7f8cf229-a3a2-4410-b4f9-71fbb8de2ed7)
+
+![image](https://github.com/user-attachments/assets/2f91ca9b-203c-49bf-a97b-8f8bffd05ba3)
+
 ## Parte 3: SǪL (Base de Datos) - Optimización y Consultas
 
 La consulta SQL optimizada para obtener todas las tareas pendientes de un usuario es la siguiente.

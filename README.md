@@ -147,6 +147,14 @@ A continuación, se necesito corregir los errores para continuar con la instalac
 ![image](https://github.com/user-attachments/assets/ddf81146-f421-4e2c-8e92-c8c34fc19370)
 ![image](https://github.com/user-attachments/assets/c681f3bf-9a47-46aa-a1ef-72ff238b7b4c)
 
+Se configura el perfil de administrador.
+
+![image](https://github.com/user-attachments/assets/45ac5209-c7a7-48d0-9ec9-7dbfdeedeeb9)
+
+Esta la aplicación lista para instalar el plugin.
+
+![image](https://github.com/user-attachments/assets/e064e0ee-fa50-4980-a727-87301e0e1b0c)
+
 
 
 

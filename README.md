@@ -151,9 +151,13 @@ Se configura el perfil de administrador.
 
 ![image](https://github.com/user-attachments/assets/45ac5209-c7a7-48d0-9ec9-7dbfdeedeeb9)
 
+### 2. Instalación del plugin completion-progress
+
 Esta la aplicación lista para instalar el plugin.
 
 ![image](https://github.com/user-attachments/assets/e064e0ee-fa50-4980-a727-87301e0e1b0c)
+
+### 3. Restaurar el curso-demo.mbz
 
 A continuación, se restaura el `curso-demo.mbz`, para este paso fue necesario aumentar el tamaño maximo de archivos en php.ini ya que el mbz tiene un tamaño de 64,5 MB y el limite era de 40 MB.
 
